@@ -77,7 +77,7 @@ body.ajax-page-visible {
 }
 
 a {
-  color: #2eca7f;
+  color: #3399cc;
   text-decoration: none;
   outline: none;
   -webkit-transition: all 0.3s ease-in-out;
@@ -97,7 +97,7 @@ a:focus {
   outline: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .title {
   color: #212121;
   font-family: 'Montserrat', Helvetica, sans-serif;
   font-weight: 700;
@@ -105,7 +105,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 10px;
 }
-
+.h3{font-size: 1.2em;}
+.h4{
+  font-size:1em;
+}
 p {
   font-size: 15px;
   margin: 0 0 10px;
@@ -185,7 +188,7 @@ textarea.form-control, textarea.form-control:focus {
   left: 50%;
   right: 50%;
   bottom: 0;
-  background: #2eca7f;
+  background: #3399cc;
   height: 2px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -290,7 +293,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .form-group-with-icon.form-group-focus i {
-  color: #2eca7f;
+  color: #3399cc;
 }
 /* /Form controls */
 
@@ -329,7 +332,7 @@ button, input[type="button"], input[type="submit"] {
 .btn-primary:hover,
 .btn-primary:focus,
 button, input[type="button"], input[type="submit"] {
-  background-color: #2eca7f;
+  background-color: #3399cc;
   color: #fff;
   border: 0;
   box-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.3);
@@ -354,11 +357,11 @@ button:hover, input[type="button"]:hover, input[type="submit"]:hover {
 /* / buttons */
 
 .border-top {
-  border-top: 2px solid #2eca7f;
+  border-top: 2px solid #3399cc;
 }
 
 .border-bottom {
-  border-bottom: 2px solid #2eca7f;
+  border-bottom: 2px solid #3399cc;
 }
 
 /* Footer */
@@ -434,7 +437,7 @@ body > footer .copyrights {
 
 .preloader-spinner:after {
   border-color: transparent;
-  border-top-color: #2eca7f;
+  border-top-color: #3399cc;
   -webkit-animation: rotation 0.82s infinite cubic-bezier(0.6,0.3,0.3,0.6);
   animation: rotation 0.82s infinite cubic-bezier(0.6,0.3,0.3,0.6);
 }
@@ -649,7 +652,7 @@ body > footer .copyrights {
 }
 
 .site-title span {
-  color: #2eca7f;
+  color: #3399cc;
 }
 
 .header.sticked .site-title {
@@ -724,7 +727,7 @@ body > footer .copyrights {
   width: 0;
   height: 2px;
   margin: 0 auto;
-  background-color: #2eca7f;
+  background-color: #3399cc;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -o-transition: all 0.15s ease-in-out;
@@ -788,7 +791,7 @@ body > footer .copyrights {
 }
 
 .block-title h3 span {
-  color: #2eca7f;
+  color: #3399cc;
 }
 
 .custom-page-content .block {
@@ -803,13 +806,13 @@ body > footer .copyrights {
   margin: 0;
 }
 
-.custom-page-content .page-header h2 {
+.custom-page-content .page-header {
   font-size: 44px;
   margin: 0;
 }
 
 .custom-page-content .page-header.color-1 {
-  background-color: #2eca7f;
+  background-color: #3399cc;
   background-image: url(../images/sp_main_bg.png);
   background-size: cover;
   -webkit-background-size: cover;
@@ -819,12 +822,15 @@ body > footer .copyrights {
 }
 
 .custom-page-content .page-header.color-1 h2,
+.custom-page-content .page-header.color-1 .title,
 .custom-page-content .page-header.color-2 h2,
 .custom-page-content .page-header.color-3 h2,
 .custom-page-content .page-header.color-4 h2 {
   color: #fff;
 }
-
+.custom-page-content .page-header.color-1 .title{
+  font-size:44px;
+}
 .custom-page-content .page-content {
   background-color: #fff;
 }
@@ -839,7 +845,7 @@ body > footer .copyrights {
 ======================================= */
 .start-page-content .page-header {
   position: relative;
-  background-color: #2eca7f;
+  background-color: #3399cc;
   padding: 50px;
   margin-bottom: 25px;
   background-image: url(../images/sp_main_bg.png);
@@ -982,7 +988,7 @@ body > footer .copyrights {
   margin-left: 20px;
   margin-bottom: 20px;
   background-color: #fff;
-  border-left: 2px solid #2eca7f;
+  border-left: 2px solid #3399cc;
   box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2);
 }
 
@@ -1004,7 +1010,7 @@ body > footer .copyrights {
   height: 12px;
   top: 20px;
   left: -29px;
-  border: 2px solid #2eca7f;
+  border: 2px solid #3399cc;
   z-index: 2;
 }
 
@@ -1012,7 +1018,7 @@ body > footer .copyrights {
   content: '';
   display: inline-block;
   position: absolute;
-  background-color: #2eca7f;
+  background-color: #3399cc;
   border-radius: 10px;
   width: 29px;
   height: 2px;
@@ -1032,7 +1038,7 @@ body > footer .copyrights {
   display: inline-block;
   font-size: 12px;
   line-height: 1.2em;
-  color: #2eca7f;
+  color: #3399cc;
   margin-bottom: 8px;
 }
 
@@ -1073,7 +1079,7 @@ body > footer .copyrights {
 }
 
 .skill-percentage {
-  background-color: #2eca7f;
+  background-color: #3399cc;
   height: 10px;
   padding: 0;
 }
@@ -1091,15 +1097,15 @@ body > footer .copyrights {
 
 /*Skill 1*/
 .skill-percentage.skill-1 {
-  width: 88%;
+  width: 95%;
 }
 /*Skill 2*/
 .skill-percentage.skill-2 {
-  width: 75%;
+  width: 70%;
 }
 /*Skill 3*/
 .skill-percentage.skill-3 {
-  width: 60%;
+  width: 40%;
 }
 /*Skill 4*/
 .skill-percentage.skill-4 {
@@ -1107,11 +1113,11 @@ body > footer .copyrights {
 }
 /*Skill 5*/
 .skill-percentage.skill-5 {
-  width: 75%;
+  width: 85%;
 }
 /*Skill 6*/
 .skill-percentage.skill-6 {
-  width: 92%;
+  width: 75%;
 }
 /*Skill 7*/
 .skill-percentage.skill-7 {
@@ -1180,7 +1186,7 @@ body > footer .copyrights {
   font-size: 48px;
   line-height: 80px;
   color: #fff;
-  background-color: #2eca7f;
+  background-color: #3399cc;
   width: 80px;
   height: 80px;
   border-radius: 100px;
@@ -1255,7 +1261,7 @@ body > footer .copyrights {
   font-weight: 400;
   display: block;
   margin: 10px 0;
-  color: #2eca7f;
+  color: #3399cc;
 }
 /* /Fun Facts */
 
@@ -1303,7 +1309,7 @@ body > footer .copyrights {
   padding: 2.2em 1.2em 1.5em;
   font-style: italic;
   border: 1px solid #e0e0e0;
-  border-top: 2px solid #2eca7f;
+  border-top: 2px solid #3399cc;
   width: 100%;
   position: relative;
   margin: 0;
@@ -1387,7 +1393,7 @@ body > footer .copyrights {
   content: '';
   height: 2px;
   margin-top: 0;
-  background-color: #2eca7f;
+  background-color: #3399cc;
   position: absolute;
   left: 0;
   bottom: -3px;
@@ -1464,7 +1470,7 @@ body > footer .copyrights {
 
 .portfolio-filters li.active a,
 .portfolio-filters li.active a:hover {
-  background-color: #2eca7f;
+  background-color: #3399cc;
   color: #fff;
 }
 
@@ -1508,7 +1514,7 @@ body > footer .copyrights {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #2eca7f;
+  background-color: #3399cc;
   opacity: 0.8;
   z-index: 0;
 }
@@ -1634,7 +1640,7 @@ body > footer .copyrights {
 
 .blog-card .post-date span {
   display: block;
-  color: #2eca7f;
+  color: #3399cc;
   line-height: 1;
   font-size: 12px;
   margin: 0;
@@ -1775,7 +1781,7 @@ body > footer .copyrights {
 .contact-info-block i {
   position: relative;
   font-size: 18px;
-  color: #2eca7f;
+  color: #3399cc;
   text-align: center;
   line-height: 36px;
 }
@@ -1826,7 +1832,7 @@ body > footer .copyrights {
 .testimonials.owl-carousel .owl-nav .owl-prev:hover,
 .testimonials.owl-carousel .owl-nav .owl-next:hover {
   color: #fff;
-  background-color: #2eca7f;
+  background-color: #3399cc;
 }
 
 .testimonials.owl-carousel .owl-nav .owl-prev:before,
@@ -1997,7 +2003,7 @@ body > footer .copyrights {
 }
 
 .ajax-page-nav > div.nav-item a:hover {
-  color: #2eca7f;
+  color: #3399cc;
 }
 
 .ajax-page-nav > div.nav-item a i {
@@ -2042,7 +2048,7 @@ body > footer .copyrights {
 }
 
 .project-general-info .fa {
-  color: #2eca7f;
+  color: #3399cc;
   margin-right: 5px;
 }
 
@@ -2069,7 +2075,7 @@ body > footer .copyrights {
 
 .share-buttons a:hover {
   color: #fff;
-  background-color: #2eca7f;
+  background-color: #3399cc;
   border-color: transparent;
 }
 
@@ -2155,7 +2161,7 @@ body > footer .copyrights {
 
 blockquote {
   margin: 20px 0;
-  border-left: 3px solid #2eca7f;
+  border-left: 3px solid #3399cc;
   font-style: italic;
 }
 
@@ -2291,7 +2297,7 @@ blockquote footer, blockquote small, blockquote .small {
     top: 50px;
     z-index: 1001;
     overflow: auto;
-    background-color: #2eca7f;
+    background-color: #1e5a78;
     -webkit-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
     -moz-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
@@ -2326,7 +2332,7 @@ blockquote footer, blockquote small, blockquote .small {
     left: 0;
     right: 0;
     height: 50px;
-    background-color: #2eca7f;
+    background-color: #3399cc;
     -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
     -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
     box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);

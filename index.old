@@ -146,7 +146,7 @@
             <section class="pt-page" data-id="resume">
               <div class="section-inner custom-page-content">
                 <div class="page-header color-1">
-                  <h2 class="title">Currículo</h2>
+                  <h2>Currículo</h2>
                 </div>
                 <div class="page-content">
 
@@ -164,7 +164,25 @@
                             <span class="item-period">2005-2008</span>
                             <span class="item-small">Université de Neuchâtel - Suíça</span>
                           </div>
-                          
+                          <!-- / Education 1 -->
+
+                          <!-- Education 2
+                          <div class="timeline-item">
+                            <h4 class="item-title">Specialization Course</h4>
+                            <span class="item-period">2010</span>
+                            <span class="item-small">Apple Inc.</span>
+                            <p class="item-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+                          </div> -->
+                          <!-- / Education 2 -->
+
+                          <!-- Education 3
+                          <div class="timeline-item">
+                            <h4 class="item-title">Specialization Course</h4>
+                            <span class="item-period">2010</span>
+                            <span class="item-small">Apple Inc.</span>
+                            <p class="item-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+                          </div> -->
+                          <!-- / Education 3 -->
                         </div>
                       </div>
                     </div>
@@ -195,7 +213,14 @@
                           </div>
                           <!-- / Experience 2 -->
 
-                          
+                          <!-- Experience 3 
+                          <div class="timeline-item">
+                            <h4 class="item-title"></h4>
+                            <span class="item-period"></span>
+                            <span class="item-small"></span>
+                            <p class="item-description"></p>
+                          </div>-->
+                          <!-- / Experience 3 -->
                         </div>
                       </div>
                     </div>
@@ -205,7 +230,7 @@
                     <div class="col-sm-6 col-md-6 col-lg-6">
                       <div class="block">
                         <div class="block-title">
-                          <h4 class="h3">Design <span>Skills</span></h4>
+                          <h4>Design <span>Skills</span></h4>
                         </div>
 
                         <div class="skills-info">
@@ -231,7 +256,7 @@
                     <div class="col-sm-6 col-md-6 col-lg-6">
                       <div class="block">
                         <div class="block-title">
-                          <h5 class="h3">Coding <span>Skills</span></h5>
+                          <h5>Coding <span>Skills</span></h5>
                         </div>
 
                         <div class="skills-info">
@@ -267,14 +292,14 @@
             <section class="pt-page" data-id="services">
               <div class="section-inner custom-page-content">
                 <div class="page-header color-1">
-                  <h6 class="title">Serviços Prestados</h6>
+                  <h6>Serviços Prestados</h6>
                 </div>
                 <div class="page-content">
                   <!-- My Services -->
                   <div class="row">
                     <div class="col-sm-12 col-md-12">
                       <div class="block-title">
-                        <h6 class="h3">Sou <span>bom em...</span></h6>
+                        <h6>Sou <span>bom em...</span></h6>
                       </div>
                     </div>
 
@@ -285,7 +310,7 @@
                           <div class="service-image">
                             <img src="images/service/web_design_icon.png" alt="Responsive Design" class="mCS_img_loaded">
                           </div>
-                          <h6 class="h4">Web Design</h6>
+                          <h4>Web Design</h4>
                           <p>Criação de sites com as tecnologias utilisadas no momento.</p>
                         </div>
                       </div>
@@ -297,7 +322,7 @@
                           <div class="service-image">
                             <img src="images/service/photography_icon.png" alt="Photography" class="mCS_img_loaded">
                           </div>
-                          <h6 class="h4">Ferramentas de Gestão de Marketing</h6>
+                          <h4>Ferramentas de Gestão de Marketing</h4>
                           <p>Configurações de Ferramentas de Gestão, Analytics.</p>
                         </div>
                       </div>
@@ -309,7 +334,7 @@
                           <div class="service-image">
                             <img src="images/service/creativity_icon.png" alt="Creativity" class="mCS_img_loaded">
                           </div>
-                          <h6 class="h4">SEO</h6>
+                          <h4>SEO</h4>
                           <p>Estratégias de otimização de sites, para melhor rankeamento em busca orgânica das priincipais ferramentas de busca web.</p>
                         </div>
                       </div>
@@ -321,7 +346,7 @@
                           <div class="service-image">
                             <img src="images/service/advetising_icon.png" alt="Advetising" class="mCS_img_loaded">
                           </div>
-                          <p class="h4">Wordpress</p>
+                          <h4>Wordpress</h4>
                           <p>Criação, customização do principal CMS do mundo.</p>
                         </div>
                       </div>
@@ -333,7 +358,7 @@
                   <div class="row">
                     <div class="col-sm-12 col-md-12">
                       <div class="block-title">
-                        <p class="h3 title">Clientes</p>
+                        <h3>Clientes</h3>
                       </div>
 
                       <div class="col-sm-4 col-md-3 subpage-block">
@@ -364,7 +389,68 @@
                   </div>
                   <!-- End of Clients -->
 
-                  
+                  <!-- Testimonials 
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                      <div class="block-title">
+                        <h3>Depoimentos de clientes</h3>
+                      </div>
+
+
+                      <div class="testimonials owl-carousel block">
+                        
+                        <div class="testimonial-item">
+                          <div class="testimonial-credits">
+                            <div class="testimonial-picture">
+                              <img src="images/testimonials/testimonial_photo_1.jpg" alt="">
+                            </div>              
+                            <div class="testimonial-author-info">
+                              <p class="testimonial-author">Maria Richardson</p>
+                              <p class="testimonial-firm">Lindsley's Lumber</p>
+                            </div>
+                          </div>
+                          <div class="testimonial-content">
+                            <div class="testimonial-text">
+                              <p>"Phasellus eu nunc tincidunt, ultricies elit vitae, pretium eros. Sed sed ipsum sed massa."</p>
+                            </div>
+                          </div>            
+                        </div>
+                        <div class="testimonial-item">
+                          <div class="testimonial-credits">
+                            <div class="testimonial-picture">
+                              <img src="images/testimonials/testimonial_photo_2.jpg" alt="">
+                            </div>              
+                            <div class="testimonial-author-info">
+                              <p class="testimonial-author">John Doe</p>
+                              <p class="testimonial-firm">Apple Inc.</p>
+                            </div>
+                          </div>
+                          <div class="testimonial-content">
+                            <div class="testimonial-text">
+                              <p>"Vivamus porta dapibus tristique. Suspendisse et arcu eget nisi convallis eleifend nec ac lorem.</p>
+                            </div>
+                          </div>            
+                        </div>
+                        <div class="testimonial-item">
+                          <div class="testimonial-credits">
+                            <div class="testimonial-picture">
+                              <img src="images/testimonials/testimonial_photo_3.jpg" alt="">
+                            </div>              
+                            <div class="testimonial-author-info">
+                              <p class="testimonial-author">George McQueen</p>
+                              <p class="testimonial-firm">Harmony House</p>
+                            </div>
+                          </div>
+                          <div class="testimonial-content">
+                            <div class="testimonial-text">
+                              <p>"Aliquam congue auctor lectus sed fermentum. Nulla ultricies tellus quis sapien lacinia egestas."</p>
+                            </div>
+                          </div>            
+                        </div>
+                      </div>
+                    </div>
+                  </div>-->
+                  <!-- End of Tesimonials -->
                 </div>
               </div>
             </section>
@@ -375,14 +461,155 @@
             <section class="pt-page" data-id="portfolio">
               <div class="section-inner custom-page-content">
                 <div class="page-header color-1">
-                  <p class="title">Portfólio</p>
+                  <h2>Portfólio</h2>
                 </div>
                 <div class="page-content">
 
                   <!-- Portfolio Content -->
                   <div class="portfolio-content">
                                 <p class="">Em breve</p>
-                    
+                    <!-- Portfolio filter 
+                    <ul id="portfolio_filters" class="portfolio-filters">
+                      <li class="active">
+                        <a class="filter btn btn-sm btn-link active" data-group="all">Tudo</a>
+                      </li>
+                      <li>
+                        <a class="filter btn btn-sm btn-link" data-group="media">Web Design</a>
+                      </li>
+                      <li>
+                        <a class="filter btn btn-sm btn-link" data-group="illustration">SEO</a>
+                      </li>
+                      <li>
+                        <a class="filter btn btn-sm btn-link" data-group="video">Programação</a>
+                      </li>
+                    </ul>-->
+                    <!-- End of Portfolio filter -->
+
+                    <!-- Portfolio Grid
+                    <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
+
+                      <figure class="item" data-groups='["all", "media"]'>
+                        <a href="images/portfolio/full/3.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+                          <img src="images/portfolio/1.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Media</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <figure class="item" data-groups='["all", "video"]'>
+                        <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Praesent Dolor Ex" class="lightbox mfp-iframe">
+                          <img src="images/portfolio/2.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Video</small>
+                            <i class="fa fa-video-camera"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <figure class="item" data-groups='["all","illustration"]'>
+                        <a href="images/portfolio/full/3.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+                          <img src="images/portfolio/3.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Illustration</small>
+                            <i class="fa fa-image"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <figure class="item" data-groups='["all", "media"]'>
+                        <a href="images/portfolio/full/4.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+                          <img src="images/portfolio/4.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Media</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <figure class="item" data-groups='["all", "illustration"]'>
+                        <a href="images/portfolio/full/5.jpg" class="lightbox" title="Aliquam Condimentum Magna Rhoncus">
+                          <img src="images/portfolio/5.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Illustration</small>
+                            <i class="fa fa-image"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <figure class="item" data-groups='["all", "media"]'>
+                        <a href="images/portfolio/full/6.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+                          <img src="images/portfolio/6.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Media</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <figure class="item" data-groups='["all", "video"]'>
+                        <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Nulla Facilisi" class="lightbox mfp-iframe">
+                          <img src="images/portfolio/7.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Video</small>
+                            <i class="fa fa-video-camera"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <figure class="item" data-groups='["all",  "media"]'>
+                       <a href="images/portfolio/full/1.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+                          <img src="images/portfolio/8.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Media</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <figure class="item" data-groups='["all","illustration"]'>
+                        <a href="images/portfolio/full/9.jpg" class="lightbox" title="Mauris Neque Dolor">
+                          <img src="images/portfolio/9.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Illustration</small>
+                            <i class="fa fa-image"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <figure class="item" data-groups='["all", "video"]'>
+                        <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Donec Lectus Arcu" class="lightbox mfp-iframe">
+                          <img src="images/portfolio/10.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Video</small>
+                            <i class="fa fa-video-camera"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <figure class="item" data-groups='["all","illustration"]'>
+                        <a href="images/portfolio/full/11.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+                          <img src="images/portfolio/11.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Illustration</small>
+                            <i class="fa fa-image"></i>
+                          </div>
+                        </a>
+                      </figure>
+                      <figure class="item" data-groups='["all","media"]'>
+                        <a href="images/portfolio/full/1.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+                          <img src="images/portfolio/12.jpg" alt="">
+                          <div>
+                            <h5 class="name">Project Name</h5>
+                            <small>Media</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+                    </div> -->
+                    <!-- /Portfolio Grid -->
 
                   </div>
                   <!-- /Portfolio Content -->
