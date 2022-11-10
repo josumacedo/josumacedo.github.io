@@ -2,8 +2,6 @@
 Criado para o curso de Git e Github
 -
 
-Site estatico: _[urlcv]_
-
 [Ver o CV online]([urlcv] "Acessar o CV")
 
 <costamacedo@hotmail.com>
