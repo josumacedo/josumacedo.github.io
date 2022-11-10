@@ -19,9 +19,11 @@ Atualizado em: **10/11/2022**
 ### Markdown exemplos
 
 Imagem remota:
+
 ![Dev](https://www.codeur.com/blog/wp-content/uploads/2021/04/image-crea-1-740x447.jpg "Dev")
 
 Imagem local:
+
 ![Logo](images/favicon.png "Logo")
 
 ### Lista Ordenadas:
