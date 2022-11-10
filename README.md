@@ -1,7 +1,7 @@
 # CV Online de Josué Macedo
 > Criado para o curso de Git e Github.
 
-[Ver o CV online]([urlcv] "Acessar o CV")
+[Ver o CV online][urlcv]
 
 <costamacedo@hotmail.com>
 
@@ -65,4 +65,5 @@ edit autoexec.bat
 - [x] ~~Tarefa concluída riscada~~
 
 #### Referências
+
 [urlcv]: https://josumacedo.github.io/
