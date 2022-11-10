@@ -1,6 +1,5 @@
 # CV Online de Josué Macedo
-Criado para o curso de Git e Github
--
+> Criado para o curso de Git e Github.
 
 [Ver o CV online]([urlcv] "Acessar o CV")
 
