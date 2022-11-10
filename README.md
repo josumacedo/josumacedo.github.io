@@ -43,10 +43,18 @@ Atari | R$ 490,99
 <html lang="pt-br">
 ```
 
+`nomedaFuncao()`
+
 #### Texto mono-espaçado com coloração
-```html
-<html lang="pt-br">
+```sh
+npm install yoxs
 ```
+windows
+```sh
+edit autoexec.bat
+```
+
+
 
 #### Tarefas
 
